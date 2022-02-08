@@ -56,8 +56,8 @@ foreach ($xml->children() as $row) {
 <td style="border-color: #000;" ><?php echo $count; ?></td>
 <td style="border-color: #000;width: 10%;"><?= $adi?></td>
 			 	<td style="border-color: #000;width: 10%;"><?= $barkod ?></td>
-				<td style="border-color: #000;"><iframe src="<?php echo ("/pazarama/stokguncelle.php?stok=$stok&barkod=$barkod") ?>" style="border: none;width: 100%;height: 100px;" ></iframe></td>
-				<td style="border-color: #000;"><iframe src="<?php echo ("/pazarama/fiyatguncelle.php?fiyat=$fiyat&barkod=$barkod&pfiyati=$pfiyati") ?>" style="border: none;width: 100%;height: 100px;" ></iframe></td>
+				<td style="border-color: #000;"><iframe src="<?php echo ("/stokguncelle.php?stok=$stok&barkod=$barkod") ?>" style="border: none;width: 100%;height: 100px;" ></iframe></td>
+				<td style="border-color: #000;"><iframe src="<?php echo ("/fiyatguncelle.php?fiyat=$fiyat&barkod=$barkod&pfiyati=$pfiyati") ?>" style="border: none;width: 100%;height: 100px;" ></iframe></td>
 
 			    </tr>
 				<?php $count=$count+1; ?>
