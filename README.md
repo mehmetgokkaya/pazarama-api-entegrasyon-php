@@ -1,0 +1,1 @@
+# pazarama-entegrasyon
