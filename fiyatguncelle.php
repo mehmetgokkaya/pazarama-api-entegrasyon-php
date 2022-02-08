@@ -11,7 +11,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
 $headers = array(
    "Accept: application/json",
-   "Authorization: Bearer   //postman ile aldığınız token kodu// ",
+   "Authorization: Bearer TOKENKODUNUZ", // Token Kodu Buraya
    "Content-Type: application/json",
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
