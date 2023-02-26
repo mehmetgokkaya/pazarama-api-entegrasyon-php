@@ -22,6 +22,7 @@ Pazaramada hesap bilgileri bölümünde yer alan entegrasyon bilgileriniz kullan
 # Token Alma
 Resimdeki bilgileri kendinize göre doldurduktan sonra SEND Butonuna tıklayarak token alabilirsiniz</br>
 isterseniz yan tarafta php çıktı seçerek sitenize ekleyebilir her çalıştırdığınızda yeni bir token alabilirsiniz.</br>
+# Başka bir yöntem ise token alma kodlarını php ile düzenleyerek sql e yükleyebilirsiniz ve sqlden veri olarak çekebilirsiniz. aldığınız tokenların kullanımı 1 ay süreli olduğu için cron jop oluşturarak tokenları ayda bir yeniletebilirsiniz</br>
 
 ![How do I post JSON to the server ](https://user-images.githubusercontent.com/27200160/152977294-f7de6f27-b1e3-4105-8f6e-e5991e09f3dd.png)
 
