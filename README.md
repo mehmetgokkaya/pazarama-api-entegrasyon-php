@@ -24,6 +24,9 @@ bu yüzden basit bir kod yapısı oldu.
 isterseniz yan tarafta php çıktı seçerek sitenize ekleyebilir her çalıştırdığınızda yeni bir token alabilirsiniz.</br>
 * Başka bir yöntem ise token alma kodlarını php ile düzenleyerek sql e yükleyebilirsiniz ve sqlden veri olarak çekebilirsiniz. aldığınız tokenların kullanımı 1 ay süreli olduğu için cron jop oluşturarak tokenları ayda bir yeniletebilirsiniz</br>
 
+![Api Entegrasyon Dokümanı (Tedarikçi) - 8 Ekim](https://user-images.githubusercontent.com/27200160/222475939-f98d833b-0182-4c25-afbf-3af13ef88b85.png)
+
+
 ![How do I post JSON to the server ](https://user-images.githubusercontent.com/27200160/152977294-f7de6f27-b1e3-4105-8f6e-e5991e09f3dd.png)
 
 # Sonuç
